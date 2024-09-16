@@ -18,6 +18,7 @@
     align-items: flex-start;
     padding: 20px;
     
+    
 }
 .compartment {
     display: flex;
@@ -210,3 +211,34 @@
     }
 }
  
+.community{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(234, 234, 234);
+    text-align: center;
+    border-radius: 20px;
+    margin: auto;
+    padding: 20px;
+    width: 100%; 
+    height: auto;
+    overflow: auto;
+}
+.body3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* grid-gap: 20px; */
+    align-items: center;
+    font-size: 14px;
+    justify-content: center;
+    grid-gap: 20px;
+    padding: 20px;
+    height: 600px;
+    margin-top: 50px;
+  /* margin: auto; */
+    flex: auto;
+    color: rgb(33, 7, 33);
+    
+}
